@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dates Smart Contract</title>
+  </head>
+  <style>
+    input {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    h3 {
+
+text-align: center; 
+color: rgb(62, 43, 3);     
+    }
+
+    form {
+    max-width: 10em;
+    align-content: center;
+    padding: 37.5px;
+  margin: 40px 0;
+  border: solid 3px #474544;
+  margin: 60px auto;
+  position: relative;
+  background-color: #eee2af;
+
+ }
+
+ #basicForm {
+  border: solid 3px #474544;
+  margin: 60px auto;
+  position: relative;
+  background-color: #eee2af;
+
+}
+
+
+
+ .myDiv {
+  
+  text-align: center;
+}
+
+
+.icon {
+  
+  text-align: center;
+}
+
+body{
+  background-color: rgba(237, 233, 210, 0.851);
+  
+
+}
+
+  </style>
+
+  <body>
+
+    
+ <div class="myDiv">
+ <a href="Home.html"><img src="https://www.pngkey.com/png/full/237-2376433_dates-fruit.png" style="width:5.66cm;height:3.4cm;"></a>
+ <h1 style="color: rgb(62, 43, 3);      ">Decentrlized Dates</h1>
+
+</div>  
+
+<div class="icon">
+  <a href="Farmer-Create.html">
+    <img src="https://files2.up4.cc/2021-04/161891317062371.png " style="width: 90px; height: 50px;" ></a>
+    <a href="Farmer-Selling.html">
+  <img src="https://files2.up4.cc/2021-04/161891317091172.png " style="width: 90px; height: 50px;" ></a>
+
+
+</div>
+
+
+<h3>Dates Smart Contract</h3>
+   
+<form id="basicForm" ;>
+
+  <p> <b>Selling to the merchant</b></p>
+
+
+    <label for="FarmerId">FarmerId:</label>
+    <input type="text" id="FarmerId" placeholder="enter your FarmerId" />
+
+    <label for="Acount">Acount:</label>
+    <input type="number" id="Acount" placeholder="enter your Acount No." />
+
+    <label for="Location">Location:</label>
+    <input type="text" id="Location" placeholder="enter your Acount No." />
+
+
+
+
+
+</br>
+<button onclick="App.addFarmer()"> add Farmer </button>
+<p> <b>Add product:</b></p>
+
+
+<label for="DatesType">DatesType</label>
+<select name="DatesType" id="DatesType">
+  <option value="Kholas">Kholas</option>
+  <option value="Sokary">Sokary</option>
+  <option value="Ajwa">Ajwa</option>
+</select>
+
+<label for="TamerId">FarmerId:</label>
+<input type="text" id="TamerId" placeholder="enter TamerId" />
+
+<label for="productBoxNum">productBoxNum:</label>
+<input type="number" id="productBoxNum" placeholder="Enter Box number" />
+
+<label for="price">price:</label>
+<input type="text" id="price" placeholder="price" />
+
+    <label for="prouductDOP">prouductDOP:</label>
+    <input type="date" id="prouductDOP" placeholder="prouductDOP"/>
+
+    <label for="prouductEXP">prouductEXP:</label>
+    <input type="date" id="prouductEXP" placeholder="prouductEXP"/>
+
+
+ 
+
+
+    <button onclick="App.addProduct()"> Sell </button>
+
+    <p id="status"></p>
+
+ 
+  </form>
+
+  </body>
+
+  <footer style="background-color:#eee2af;">
+    <br>
+
+    <p style="text-align: center;">Created By Alpha group 2021</p>
+    <br>
+    <br>
+
+
+  
+  </footer>
+</html>
